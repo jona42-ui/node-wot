@@ -85,7 +85,7 @@ export default defineConfig([
             "n/no-extraneous-import": "off", // https://github.com/eclipse-thingweb/node-wot/issues/1430
             "n/no-deprecated-api": "off", // https://github.com/eclipse-thingweb/node-wot/issues/1430
             "n/no-unpublished-import": "error",
-            "n/no-process-exit": "off", // https://github.com/eclipse-thingweb/node-wot/issues/1430
+            "n/no-process-exit": "error",
             "n/hashbang": "warn",
 
             // *************** Ensure that only used dependencies are imported ***************
@@ -121,9 +121,9 @@ export default defineConfig([
             "@typescript-eslint/no-use-before-define": "error",
             "@typescript-eslint/no-unused-vars": "off",
             "@typescript-eslint/no-unused-expressions": "off",
-            "@typescript-eslint/no-require-imports": "off", // https://github.com/eclipse-thingweb/node-wot/issues/1430
+            "@typescript-eslint/no-require-imports": "error",
             "@typescript-eslint/prefer-nullish-coalescing": "error",
-            "@typescript-eslint/no-empty-object-type": "off", // https://github.com/eclipse-thingweb/node-wot/issues/1430
+            "@typescript-eslint/no-empty-object-type": "error",
             "@typescript-eslint/no-floating-promises": "off", // https://github.com/eclipse-thingweb/node-wot/issues/1430
 
             // ****************  Enforce usage of `const` over `let` wherever possible, to prevent accidental reassignments
